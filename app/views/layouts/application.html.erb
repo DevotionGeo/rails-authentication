@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FacebookTwitterAuth</title>
+  <title>Briisk Authenticate - Demo App</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<div class="navbar">
-  <div class="navbar-inner pull-right">
+
+<div class="container">
+<div class="hero-unit">
+  <h2>Briisk Authenticate - Demo App</h2>
+  <p>This demo presents six ways to externally authenticate your app. This way there is no need to register new users. One can log in via Facebook, Twitter or any other service. Without waiting for confirmation email one can start with your app right away.</p>
+</br>
+  <p class="blue">Choose the service you want to use to log in to the app.</p>
+  <div class="navbar">
+  <div class="navbar-inner-inverse">
     <ul class="nav">
       <li><a href="/users/auth/github">
-        <%= image_tag "github_64.png", :size => "64x64", :alt => "Github" %></a>
+        <%= image_tag "github_64.png", :size => "64x64", :alt => "GitHub" %></a>
       </li>
       <li><a href="/users/auth/twitter">
         <%= image_tag "twitter_64.png", :size => "64x64", :alt => "Twitter" %></a>
@@ -32,15 +39,22 @@
     </ul>
   </div>
 </div>
-<div id="info">
+</div>
+</div>
+
+<div class="container" id="info">
   <% if user_signed_in? %>
     <div class="alert alert-success">
-            You are signed in Briisk Authentication App.</br></br>Your uid is: <%= current_user.uid %></br>You are signed in via: <%= current_user.provider %>.
+      You are logged in Briisk Authenticate - Demo App.</br></br>Your uid is: <%= current_user.uid %></br>You are signed in via: <%= current_user.provider %>.
     </div>
+  <% else %>
+    <div class="alert alert-error">
+      You are not logged in Briisk Authenticate - Demo App.
+    </div> 
   <% end %>
 </div>
 
-<div class="authentications">
+<div class="authentications container">
   <% @users = User.all %>
   <% for user in @users %>
     <div class="authentication">

@@ -15,6 +15,8 @@ google_oauth2_32.png: google_oauth2_32-603997cfe4f727cdbb3422a4d379da14.png
 google_oauth2_32/index.png: google_oauth2_32-603997cfe4f727cdbb3422a4d379da14.png
 google_oauth2_64.png: google_oauth2_64-58d8632ffbc7eb7be7eca7196e32eb76.png
 google_oauth2_64/index.png: google_oauth2_64-58d8632ffbc7eb7be7eca7196e32eb76.png
+krata_7x7.png: krata_7x7-159929a0f3c710a5364a902913322ac9.png
+krata_7x7/index.png: krata_7x7-159929a0f3c710a5364a902913322ac9.png
 linkedin_32.png: linkedin_32-d40c113318af4dc89a60471f56bd0aa8.png
 linkedin_32/index.png: linkedin_32-d40c113318af4dc89a60471f56bd0aa8.png
 linkedin_64.png: linkedin_64-9a571eb87a4adefb66fcfbf2aff33692.png
@@ -29,8 +31,8 @@ application.js: application-e5adfd772730ebc1bcb76189911a4980.js
 application/index.js: application-e5adfd772730ebc1bcb76189911a4980.js
 active_admin.css: active_admin-98a39afebe2703c7f73273e133234e0b.css
 active_admin/index.css: active_admin-98a39afebe2703c7f73273e133234e0b.css
-application.css: application-99784e61ad5e845f765b5cc0b56667c9.css
-application/index.css: application-99784e61ad5e845f765b5cc0b56667c9.css
+application.css: application-05b72b6d17c9ce5208023a89870d00e4.css
+application/index.css: application-05b72b6d17c9ce5208023a89870d00e4.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-ca8ef044835cb738864f80b252790ff2.png
 active_admin/admin_notes_icon/index.png: active_admin/admin_notes_icon-ca8ef044835cb738864f80b252790ff2.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-44635eb5e4a6f8d17dbe54868330877f.png
